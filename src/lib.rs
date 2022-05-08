@@ -1,3 +1,6 @@
+mod error;
+mod fees;
+
 use crate::{
     error::{DexErrorCode, DexResult},
     fees::FeeTier,
